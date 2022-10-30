@@ -6,5 +6,5 @@ while (b != 0) {
   rev = rev * 10 + (b % 10)
   b = Math.floor(b / 10)
 }
-if (a == b) return true;
-else false
+if (a == b) return console.log(true);
+else console.log(false)
