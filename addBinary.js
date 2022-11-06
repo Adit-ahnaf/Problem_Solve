@@ -21,7 +21,7 @@ while(i >= 0 || j >= 0){
 
 if(carry != 0 ) res += '1';
 
-// res = res.split("").reverse().join("");
+res = res.split("").reverse().join("");
 
 return res
 }
